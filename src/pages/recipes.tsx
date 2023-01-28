@@ -1,11 +1,18 @@
 import React from 'react';
-import Layout from '../components/MainLayout';
+import MainLayout from '../components/MainLayout';
+import PaneLayout from '../components/paneLayout';
 
 const Recipes = () => {
   return (
-    <Layout>
-      <div>Hello From the recipes</div>
-    </Layout>
+    <MainLayout>
+      <PaneLayout type={'common'}>
+        <div className="mt-12 max-w-7xl w-full">
+          <div className="h-20 bg-[#ACC465] text-white text-5xl flex justify-center items-center">
+            Recipes
+          </div>
+        </div>
+      </PaneLayout>
+    </MainLayout>
   );
 };
 
