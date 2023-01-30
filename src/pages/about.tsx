@@ -16,7 +16,8 @@ const About = () => {
             About Us
           </div>
           <h3 className="text-2xl font-bold flex justify-center my-10">
-            We are a 100% mexican company, legally constituted and established.
+            We are a Company, legally constituted, established in Michoacan Mexico and with Cooler
+            facilities in McAllen Texas USA
           </h3>
 
           <div className="grid md:grid-cols-3 gap-4 my-10">
