@@ -31,6 +31,15 @@ const Products = () => {
           <div>
             <StaticImage src="../images/export_sizes.png" alt="Sizes" />
           </div>
+          <div>
+            <StaticImage src="../images/pallets.jpg" alt="Pallets" />
+          </div>
+          <div>
+            <StaticImage src="../images/pallets_aguacate.jpg" alt="Pallets avos" />
+          </div>
+          <div>
+            <StaticImage src="../images/camara_frio.jpg" alt="Cold Chamber" />
+          </div>
         </div>
       </PaneLayout>
     </MainLayout>
