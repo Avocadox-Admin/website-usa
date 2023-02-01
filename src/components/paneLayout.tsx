@@ -3,7 +3,7 @@ import React, { ReactNode } from 'react';
 const paneType: any = {
   navBar: 'flex fixed bg-white/[0.8] z-10 border-b justify-center max-h-12',
   common: 'flex justify-center',
-  footer: 'flex justify-center h-20 bg-[#ACC465] text-white'
+  footer: 'flex justify-center min-h-20 bg-[#ACC465] text-white'
 };
 
 interface PaneProps {
