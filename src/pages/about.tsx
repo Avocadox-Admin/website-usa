@@ -91,6 +91,14 @@ const About = () => {
               />
             </div>
           </div>
+
+          <div className="grid md:grid-cols-2 mb-10">
+            <StaticImage src="../images/mapa_avo_trans.png" alt="Map" />
+            <div className="flex flex-col justify-center text-lg py-6 px-10">
+              Our packing house is located in Lagunillas Michoacán México which maintains always the
+              highest standards in food safety and perfect logistics to distribute our products.
+            </div>
+          </div>
         </div>
       </PaneLayout>
     </MainLayout>

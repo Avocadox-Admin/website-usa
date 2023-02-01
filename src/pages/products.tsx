@@ -11,17 +11,25 @@ const Products = () => {
           <div className="h-20 bg-[#ACC465] text-white text-5xl flex justify-center items-center">
             Our Products
           </div>
+
           <div className="grid md:grid-cols-3 gap-8 w-full">
             <div className="flex flex-col items-center">
               <h2>Fresh Avocado</h2>
-              <StaticImage src="../images/aguacates_arbol.jpg" alt="Avos en arbol" />
+              <StaticImage src="../images/aguacates_fondo_azul.jpg" alt="Avos en arbol" />
             </div>
             <div className="flex flex-col items-center">
               <h2>PULP & Guacamole</h2>
+              <StaticImage src="../images/avo_pulp.jpeg" alt="Guacamole chips" className="md:w-48"/>
             </div>
             <div className="flex flex-col items-center">
               <h2>Oil</h2>
             </div>
+          </div>
+          <div className="h-20 bg-[#ACC465] text-white text-5xl flex justify-center items-center">
+            Packing House
+          </div>
+          <div>
+            <StaticImage src="../images/export_sizes.png" alt="Sizes" />
           </div>
         </div>
       </PaneLayout>
