@@ -19,7 +19,7 @@ const Products = () => {
             </div>
             <div className="flex flex-col items-center">
               <h2>PULP & Guacamole</h2>
-              <StaticImage src="../images/avo_pulp.jpeg" alt="Guacamole chips" className="md:w-48"/>
+              <StaticImage src="../images/avo_pulp.jpeg" alt="Avo Pulp" className="md:w-48"/>
             </div>
             <div className="flex flex-col items-center">
               <h2>Oil</h2>

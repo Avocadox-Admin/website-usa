@@ -15,20 +15,20 @@ const About = () => {
           <div className="h-20 bg-[#ACC465] text-white text-5xl flex justify-center items-center">
             About Us
           </div>
-          <h3 className="text-2xl font-bold flex justify-center my-10">
+          <h3 className="text-2xl font-bold flex justify-center my-10 px-5">
             We are a Company, legally constituted, established in Michoacan Mexico and with Cooler
             facilities in McAllen Texas USA
           </h3>
 
           <div className="grid md:grid-cols-3 gap-4 my-10">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center px-5">
               <AvoIcon className="h-32 w-32" />
               <p>
                 Dedicated to the production from the orchards to marketing of HASS type avocado with
                 a projection of growth towards processed products such as oil, pulp & guacamole
               </p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center px-5">
               <WoldMapIcon className="h-32 w-32 fill-black" />
               <p>
                 Thanks to the implementation of our vision and mission, we will be able to expand
@@ -36,7 +36,7 @@ const About = () => {
                 of our most demanding clients.
               </p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center px-5">
               <StarIcon className="h-32 w-32 fill-black" />
               <p>
                 With our always firm commitment to our producers and our clients, we are sure that
@@ -48,7 +48,7 @@ const About = () => {
 
           <h2 className="text-2xl font-bold flex justify-center my-10">Competitive advantage</h2>
 
-          <ul className="list-disc">
+          <ul className="list-disc px-8">
             <li>
               The majority of our shareholders are avocado producers, which guarantees, to a great
               extent, the most important supply for the business.
@@ -68,7 +68,7 @@ const About = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="flex flex-col">
+            <div className="flex flex-col px-5">
               <h3 className="text-2xl uppercase text-lime-600 self-center">Mision</h3>
               <p>
                 Comply with the most demanding quality standards, with the norms of innocuousness
@@ -83,7 +83,7 @@ const About = () => {
                 end consumers.
               </p>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center px-5">
               <StaticImage
                 src="../images/dos_aguacates_medio.jpg"
                 alt="Mitades"

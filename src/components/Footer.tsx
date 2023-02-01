@@ -4,11 +4,14 @@ import WhatsappIcon from '../images/whatsapp.inline.svg';
 import FacebookIcon from '../images/facebook.inline.svg';
 import InstagramIcon from '../images/instagram.inline.svg';
 import TwitterIcon from '../images/twitter.inline.svg';
+import EmailIcon from '../images/mailIcon.inline.svg';
+import PhoneIcon from '../images/phoneIcon.inline.svg';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Footer = () => {
   return (
     <div className="flex flex-col w-full max-w-7xl">
-      <div className="flex justify-center p-6 gap-3">
+      <div className="flex justify-center p-6 gap-4">
         <a href="https://www.facebook.com/people/Avocadox/100076258565785/" target="_blank">
           <FacebookIcon className="h-8 w-8" />
         </a>
@@ -19,16 +22,21 @@ const Footer = () => {
         <TwitterIcon className="h-8 w-8" />
         <WhatsappIcon className="h-8 w-8" />
       </div>
-      <div className="grid w-full md:grid-cols-3 items-center">
-        {/*<div className="flex flex-col items-center mt-4 md:justify-center  md:flex-row md:gap-6">
-        <a className="flex items-center gap-2" href="mailto:direccion@avocadoxmx.com">
+      <div className="grid md:grid-cols-2 justify-center">
+        <a className="flex justify-center items-center gap-2 hover:underline" href="mailto:direccion@avocadoxmx.com">
           <EmailIcon className="h-8 w-8"></EmailIcon>
           direccion@avocadoxmx.com
         </a>
-        <a className="flex items-center gap-2" href="tel:+524431396055">
+        <a className="flex justify-center items-center gap-2 hover:underline" href="tel:+524431396055">
           <PhoneIcon className="h-8 w-8" />
+          <StaticImage src="../images/mexico.png" alt="Mexico flag" className="w-8 h-8" />
           <span>+52 4431396055</span>
-        </a> */}
+        </a>
+      </div>
+      <div className="flex justify-center py-3">
+        <a href="https://avocadoxmx.com" target="_blank" className="text-blue-600 hover:underline">www.avocadoxmx.com</a>
+      </div>
+      <div className="grid w-full md:grid-cols-3 items-center">
         <div className="text-sm p-4 flex flex-col items-center">
           <p>Oficinas Administrativas</p>
           <p>Global Working</p>
@@ -49,7 +57,9 @@ const Footer = () => {
           <p>Javier Barros Sierra #503</p>
           <p>Delegación Álvaro Obregón</p>
           <p>Col. La Loma CDMX CP 01210</p>
-          <a href="https://vxtnegocios.mx" className="an">www.vxtnegocios.mx</a>
+          <a href="https://vxtnegocios.mx" className="text-blue-600 hover:underline">
+            www.vxtnegocios.mx
+          </a>
         </div>
       </div>
     </div>

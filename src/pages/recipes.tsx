@@ -16,7 +16,8 @@ const Recipes = () => {
           </div>
           <div className="grid md:grid-cols-2">
             <div className="px-10 py-6">
-              <ul className="list-disc">
+              <h2>INGREDIENTS</h2>
+              <ul className="list-disc my-5">
                 <li>4 large avocados</li>
                 <li>1 lb lean ground beef</li>
                 <li>4 slices of cheese of your choice</li>
@@ -40,8 +41,8 @@ const Recipes = () => {
                 skin and then your buns won’t look as nice.
               </p>
             </div>
-            <div>
-              Avocado Bun
+            <div className="flex flex-col justify-center items-center gap-6 py-6">
+              <h2 className="text-xl font-bold">Avocado Bun</h2>
               <StaticImage src="../images/sl4.jpg" alt="Avo Burger" />
             </div>
           </div>
@@ -50,19 +51,21 @@ const Recipes = () => {
           </div>
           <div className="grid md:grid-cols-2">
             <div className="px-10 py-6">
-              <ul className="list-disc">
+              <h2>INGREDIENTS</h2>
+              <ul className="list-disc my-5">
                 <li>1 medium avocado</li>
                 <li>1 beautiful load of rustic bread </li>
                 <li>4 slices of cheese of your choice</li>
                 <li>1/2 tsp white sunflower seeds</li>
-                <li>½ tsp crushes red pepper</li>
+                <li>1/2 tsp crushes red pepper</li>
                 <li>6 basil leaves</li>
                 <li>4 roasted garlic cloves</li>
                 <li>salt and pepper</li>
                 <li>condiments of your choice</li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-center items-center gap-6 py-6">
+              <h2 className="text-xl font-bold">Avocado Toast</h2>
               <StaticImage src="../images/avo_toast.jpg" alt="Avo toast" />
             </div>
           </div>
@@ -72,14 +75,15 @@ const Recipes = () => {
 
           <div className="grid md:grid-cols-2">
             <div className="px-10 py-6">
-              <ul className="list-disc">
+              <h2>INGREDIENTS</h2>
+              <ul className="list-disc my-5">
                 <li>4 large avocados</li>
-                <li>½ lb Shrimps</li>
+                <li>1/2 lb Shrimps</li>
                 <li>4 tablespoons of mayonnaise </li>
                 <li>2 boiled eggs</li>
                 <li>1 tomato</li>
                 <li>1 tablespoon chopped coriander</li>
-                <li>½ chopped onion</li>
+                <li>1/2 chopped onion</li>
                 <li>salt and pepper</li>
                 <li>condiments of your choice</li>
               </ul>
@@ -97,7 +101,8 @@ const Recipes = () => {
               </p>
               <p>Enjoy this del, delicious recipe!</p>
             </div>
-            <div>
+            <div className="flex flex-col justify-center items-center gap-6 py-6">
+              <h2 className="text-xl font-bold">Avocado Shrimp & Eggs</h2>
               <StaticImage src="../images/shrimp_egg_avo.jpg" alt="Shrimp and eggs" />
             </div>
           </div>

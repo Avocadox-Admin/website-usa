@@ -23,10 +23,10 @@ const NavBar = ({ drawerHandler }: NavProps) => {
         <>
           <div className="flex items-center">
             <Link to="/">
-              <StaticImage src="../images/avocadox_usa_logo.png" alt="Avo Logo" height={38} />
+              <StaticImage src="../images/avocadox_usa_logo.png" alt="Avo Logo" height={26} />
             </Link>
           </div>
-          <button onClick={() => drawerHandler(true)}>
+          <button onClick={() => drawerHandler(true)} className="mr-4">
             <BurgerIcon className="h-8 w-8" />
           </button>
         </>
